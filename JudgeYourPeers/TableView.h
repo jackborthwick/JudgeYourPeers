@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableView.h
 //  JudgeYourPeers
 //
 //  Created by Jack Borthwick on 6/29/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableView : UIViewController <UITableViewDelegate, UITableViewDataSource> 
 
 @end
-
